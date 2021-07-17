@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+/*タブレット用*/
+@media screen and (max-width: 959px) {
+
+}
+
+/*スマホ用*/
+@media screen and (max-width: 480px) {
+
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#conceal{
+    float: right;
+    text-decoration: none;
+}
+
+#conceal:hover{
+    transition: 0.5s;
+    background-color: rgb(190, 190, 190);
+    border-radius: 20%;
+}
+
+.header{
+    background-color: #0c5d86;
+    display: flex;
+}
+
+.header-logo{
+    background-color:rgb(235, 235, 235);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family:serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+.header-nav{
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.header-nav a:hover{
+    transition: 0.2s;
+    border-bottom: 3px white solid;
+    padding-bottom: 3px;
+}
+
+.header-nav li {
+    padding-left: 70px;
+}
+
+/*メインプログラムだよーーー*/
+
+main{
+    height: 1350px;
+    
+}
+
+.main-image{
+    height: 550px;
+    background-image:url(image/背景.jpg)
+}
+
+.main-image h1{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 45px;
+
+}
+
+.main-image h5{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.game h1{
+    text-align: center;
+    background-color: #0b587e;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 27px;
+    color: white;
+}
+
+/* ゲームリストのいちだんめだよーーーん*/
+
+.game-list{
+    padding-top: 50px;
+    background-color:rgb(235, 235, 235);
+    height: 705px;
+}
+
+.game-list li{
+    list-style: none;
+    color: black;
+}
+
+
+
+/*ゲーム一覧*/
+
+
+
+
+.game1{
+    background-color: rgb(200, 200, 200);
+    border: 2px solid #333333;
+    text-decoration: none;
+    margin: 0 auto;
+    display: flex;
+    width: 460px;
+}
+
+.game1 p{
+    color: black;
+}
+
+
+.game2{
+    background-color: rgb(200, 200, 200);
+    border: 2px solid #333333;
+    text-decoration: none;
+    margin: 0 auto;
+    display: flex;
+    width: 460px;
+}
+
+.game2 p{
+    color: black;
+}
+
+
+.game3{
+    background-color: rgb(200, 200, 200);
+    border: 2px solid #333333;
+    text-decoration: none;
+    margin: 0 auto;
+    display: flex;
+    width: 460px;
+}
+
+.game3 p{
+    color: black;
+}
+
+
+
+/* ここからメニューコーナー*/
+
+.menu{
+    background-color:rgb(235, 235, 235);
+    text-align: center;
+}
+
+.menu h1{
+    text-align: center;
+    background-color: 2c2c2f;
+    border-top: solid 5px #5989cf;
+    border-bottom: solid 5px #5989cf;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.menu img{
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+
+/*ここからフッターでーーーーーす*/
+
+
+footer{
+    background-color:rgb(0, 82, 121);
+
+}
+
+.footer-logo{
+    font-family:serif;
+    font-size: 35px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
